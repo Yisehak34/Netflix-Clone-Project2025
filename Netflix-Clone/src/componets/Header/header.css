@@ -1,0 +1,36 @@
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+}
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+.header_left ul li {
+  margin-right: 20px;
+}
+.header-right ul {
+  /* width: 40%; */
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right ul li {
+  margin-right: 15px;
+}

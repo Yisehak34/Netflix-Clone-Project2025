@@ -1,1 +1,16 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-base: "Lexend", sans-serif;
+  --font-second-base: "Inter", sans-serif;
+  --bg-color: #111;
+  --primary-color: #ffffff;
+  --second-color: #e50914;
+}
+body {
+  background-color: #111;
+}
